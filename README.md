@@ -16,12 +16,13 @@ To apply the TSP solutions, you can import a dataset (CSV file) of cities for a 
 
 
 
-Country	Nearest Neighbor Distance (km)	Nearest Neighbor Time (s)	Vector Bearing and Mutation Distance (km)	Vector Bearing and Mutation Time (s)
-Vanuatu	[1040.39]	[0.0]	[907.09]	[0.0]
-Italy	[5104.46]	[0.5]	[4584.74]	[41.5]
-USA	[Add Distance]	[Add Time]	[Add Distance]	[Add Time]
-Russia	[44115.63]	[6.9]	[40762.09]	[17.45]
-China	[Add Distance]	[Add Time]	[Add Distance]	[Add Time]
+Country |	Nearest Neighbor Distance (km) |	 Time    |	Vector Bearing and Mutation Distance (km)	| Time 
+Vanuatu	|           1040.39	             |   0.0 s   |	                 907.09                 	| 0.0 s
+Italy	  |           5104.46	             |   0.5 s   |                  4584.74	                  | 41.5 s
+USA   	|           48914.94	           |   27.3 s	 |                  52119.31	                | 73 min 16 s
+Russia	|           44115.63	           |   6.9 s	 |                  40762.09	                | 17 min 45 s
+China 	|           63550.88	           |  2min 17s |	                216137.81                 | 54 min 9 s                 
 
 Note: For a fair comparison, both solutions start at the same randomly selected city for each country.
+Note 2: For the USA and China cases, the first solution performed better than the second, indicating that there is still room for improvement in the parameters and/or the algorithm
 
